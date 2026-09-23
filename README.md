@@ -14,3 +14,63 @@
 
 
 Basic academic version of Battleship game to build upon.
+
+
+# Batalha Naval dos Descobrimentos
+
+## Tipos de navios
+
+Na versão do jogo **Batalha Naval dos Descobrimentos**, os navios atuais são representados por navios utilizados na época dos Descobrimentos.
+
+| Batalha Naval      | Descobrimentos | Inglês  | Dimensão | Nº de navios |
+| ------------------ | -------------- | ------- | -------: | -----------: |
+| Porta-aviões       | Galeão         | Galleon |        5 |            1 |
+| Navio de 4 canhões | Fragata        | Frigate |        4 |            1 |
+| Navio de 3 canhões | Nau            | Carrack |        3 |            2 |
+| Navio de 2 canhões | Caravela       | Caravel |        2 |            3 |
+| Submarino          | Barca          | Barge   |        1 |            4 |
+
+### Galeão
+
+O **galeão** corresponde ao porta-aviões da versão tradicional. Tem dimensão 5 e existe apenas um no jogo.
+
+### Fragata
+
+A **fragata** corresponde ao navio de 4 canhões. Tem dimensão 4 e existe uma no jogo.
+
+### Nau
+
+A **nau** corresponde ao navio de 3 canhões. Tem dimensão 3 e existem duas no jogo.
+
+### Caravela
+
+A **caravela** corresponde ao navio de 2 canhões. Tem dimensão 2 e existem três no jogo.
+
+### Barca
+
+A **barca** corresponde ao submarino. Tem dimensão 1 e existem quatro no jogo.
+
+## Regras do jogo
+
+O objetivo do jogo é localizar e destruir todos os navios do adversário.
+
+Cada jogador possui um tabuleiro onde coloca os seus navios. Os navios ocupam várias posições consecutivas do tabuleiro, de acordo com a sua dimensão.
+
+Em cada jogada, o jogador escolhe uma posição do tabuleiro adversário para tentar atingir um navio.
+
+* Se nessa posição existir um navio, o jogador acerta num navio.
+* Se não existir um navio, o jogador falha o tiro.
+* Um navio é destruído quando todas as suas posições forem atingidas.
+* O jogo termina quando todos os navios de um dos jogadores forem destruídos.
+
+## Navios da época dos Descobrimentos
+
+Para mais informação sobre os navios utilizados durante a época dos Descobrimentos, podem ser consultadas fontes como a [Wikipédia](https://pt.wikipedia.org/).
+
+### Referências
+
+* [Galeão — Wikipédia](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+* [Fragata — Wikipédia](https://pt.wikipedia.org/wiki/Fragata)
+* [Nau — Wikipédia](https://pt.wikipedia.org/wiki/Nau)
+* [Caravela — Wikipédia](https://pt.wikipedia.org/wiki/Caravela)
+* [Barca — Wikipédia](https://pt.wikipedia.org/wiki/Barca)
