@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 import java.util.ArrayList;
@@ -185,4 +184,3 @@ public class Fleet implements IFleet {
         printShips(ships);
     }
 }
-```

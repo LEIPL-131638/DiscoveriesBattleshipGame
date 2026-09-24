@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -60,9 +59,9 @@ public class Galleon extends Ship {
     }
 
     /**
-     * Returns the number of positions occupied by the galleon.
+     * Obtém o tamanho do galeão.
      *
-     * @return the size of the galleon, which is {@value #SIZE}
+     * @return o tamanho do galeão
      */
     @Override
     public Integer getSize() {
@@ -140,4 +139,3 @@ public class Galleon extends Ship {
                 new Position(pos.getRow() + 2, pos.getColumn()));
     }
 }
-```

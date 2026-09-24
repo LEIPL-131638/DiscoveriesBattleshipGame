@@ -1,5 +1,6 @@
-```java
 package iscteiul.ista.battleship;
+
+import iscteiul.ista.battleship.IFleet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -214,4 +215,3 @@ public class Game implements IGame {
         printBoard(shipPositions, '#');
     }
 }
-```

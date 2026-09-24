@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -53,13 +52,12 @@ public class Carrack extends Ship {
     }
 
     /**
-     * Returns the number of positions occupied by the carrack.
+     * Obtém o tamanho da nau.
      *
-     * @return the size of the carrack, which is {@value #SIZE}
+     * @return o tamanho da nau
      */
     @Override
     public Integer getSize() {
         return Carrack.SIZE;
     }
 }
-```

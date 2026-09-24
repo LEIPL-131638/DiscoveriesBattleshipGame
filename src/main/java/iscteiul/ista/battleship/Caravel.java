@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -58,13 +57,13 @@ public class Caravel extends Ship {
     }
 
     /**
-     * Returns the number of positions occupied by the caravel.
+     * Obtém o tamanho da caravela.
      *
-     * @return the size of the caravel, which is {@value #SIZE}
+     * @return o tamanho da caravela
      */
     @Override
     public Integer getSize() {
         return SIZE;
     }
 }
-```
+

@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -53,13 +52,12 @@ public class Frigate extends Ship {
     }
 
     /**
-     * Returns the number of positions occupied by the frigate.
+     * Obtém o tamanho da fragata.
      *
-     * @return the size of the frigate, which is {@value #SIZE}
+     * @return o tamanho da fragata
      */
     @Override
     public Integer getSize() {
         return Frigate.SIZE;
     }
 }
-```
