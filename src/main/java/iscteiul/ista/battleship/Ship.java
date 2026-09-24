@@ -67,8 +67,8 @@ public abstract class Ship implements IShip {
         positions = new ArrayList<>();
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém a categoria do navio
      *
      * @see battleship.IShip#getCategory()
      */
@@ -78,14 +78,16 @@ public abstract class Ship implements IShip {
     }
 
     /**
+     * Obtém a lista de posições ocupadas pelo navio
+     *
      * @return the positions
      */
     public List<IPosition> getPositions() {
         return positions;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém a posição inicial do navio
      *
      * @see battleship.IShip#getPosition()
      */
@@ -94,8 +96,8 @@ public abstract class Ship implements IShip {
         return pos;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém a orientação do navio
      *
      * @see battleship.IShip#getBearing()
      */
@@ -104,8 +106,8 @@ public abstract class Ship implements IShip {
         return bearing;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se o navio continua a flutuar
      *
      * @see battleship.IShip#stillFloating()
      */
@@ -117,8 +119,8 @@ public abstract class Ship implements IShip {
         return false;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a linha da posição mais acima do navio
      *
      * @see battleship.IShip#getTopMostPos()
      */
@@ -131,8 +133,8 @@ public abstract class Ship implements IShip {
         return top;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a linha da posição mais abaixo do navio
      *
      * @see battleship.IShip#getBottomMostPos()
      */
@@ -145,8 +147,8 @@ public abstract class Ship implements IShip {
         return bottom;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a coluna da posição mais à esquerda do navio
      *
      * @see battleship.IShip#getLeftMostPos()
      */
@@ -159,8 +161,8 @@ public abstract class Ship implements IShip {
         return left;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a coluna da posição mais à esquerda do navio à direita
      *
      * @see battleship.IShip#getRightMostPos()
      */
@@ -173,8 +175,8 @@ public abstract class Ship implements IShip {
         return right;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se o navio ocupa uma posição dada
      *
      * @see battleship.IShip#occupies(battleship.IPosition)
      */
@@ -188,8 +190,8 @@ public abstract class Ship implements IShip {
         return false;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se o navio está demasiado próximo de outro navio dado
      *
      * @see battleship.IShip#tooCloseTo(battleship.IShip)
      */
@@ -205,8 +207,8 @@ public abstract class Ship implements IShip {
         return false;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se o navio está demasiado próximo de uma posição dada
      *
      * @see battleship.IShip#tooCloseTo(battleship.IPosition)
      */
@@ -219,8 +221,8 @@ public abstract class Ship implements IShip {
     }
 
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Dispara numa posição dada
      *
      * @see battleship.IShip#shoot(battleship.IPosition)
      */
