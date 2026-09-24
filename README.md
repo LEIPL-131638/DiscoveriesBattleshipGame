@@ -16,6 +16,7 @@
 Basic academic version of Battleship game to build upon.
 
 
+
 # Batalha Naval dos Descobrimentos
 
 ## Tipos de navios
@@ -70,7 +71,16 @@ Para mais informação sobre os navios utilizados durante a época dos Descobrim
 ### Referências
 
 * [Galeão — Wikipédia](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+  <img width="378" height="320" alt="image" src="https://github.com/user-attachments/assets/16999c02-1754-45b1-960e-50c47d73debd" />
+
 * [Fragata — Wikipédia](https://pt.wikipedia.org/wiki/Fragata)
+  <img width="960" height="640" alt="image" src="https://github.com/user-attachments/assets/2126afb6-10a9-4b22-a024-752bbfa4ae7d" />
+
 * [Nau — Wikipédia](https://pt.wikipedia.org/wiki/Nau)
+  <img width="500" height="667" alt="image" src="https://github.com/user-attachments/assets/812db2bd-6701-4558-80e5-57b03bb4f389" />
+
 * [Caravela — Wikipédia](https://pt.wikipedia.org/wiki/Caravela)
+  <img width="500" height="332" alt="image" src="https://github.com/user-attachments/assets/6afe40c4-f986-4784-b072-3eba9807601d" />
+
 * [Barca — Wikipédia](https://pt.wikipedia.org/wiki/Barca)
+<img width="500" height="375" alt="image" src="https://github.com/user-attachments/assets/88d1387d-6b1f-4f6a-a63f-05f70aa3ec5a" />
