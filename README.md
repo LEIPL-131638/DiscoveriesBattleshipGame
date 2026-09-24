@@ -65,7 +65,7 @@ Em cada jogada, o jogador escolhe uma posição do tabuleiro adversário para te
 
 ## Navios da época dos Descobrimentos
 
-Para mais informação sobre os navios utilizados durante a época dos Descobrimentos, podem ser consultadas fontes como a [Wikipédia](https://pt.wikipedia.org/).
+Para mais informação sobre os navios utilizados durante a época dos Descobrimentos, podem ser consultadas fontes como a [Wikipédia](https://pt.wikipedia.org/wiki/Era_dos_Descobrimentos).
 
 ### Referências
 
