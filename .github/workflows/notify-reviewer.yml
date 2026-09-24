@@ -1,9 +1,6 @@
 name: Notify Pull Request Reviewer
 
-on:
-  pull_request:
-    types:
-      - opened
+on: pull_request
 
 permissions:
   pull-requests: write
