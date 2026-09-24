@@ -1,4 +1,3 @@
-```yaml
 name: Notify Pull Request Reviewer
 
 on:
@@ -22,4 +21,4 @@ jobs:
           gh pr comment "$PR_NUMBER" \
             --repo "$REPOSITORY" \
             --body "🔔 @LEIPL-131638, este Pull Request está pronto para revisão. Por favor, faça o review quando possível."
-```
+
