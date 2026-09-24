@@ -2,7 +2,8 @@ name: Notify Pull Request Reviewer
 
 on:
   pull_request:
-    types: [opened]
+    types:
+      - opened
 
 permissions:
   pull-requests: write
@@ -20,4 +21,4 @@ jobs:
         run: |
           gh pr comment "$PR_NUMBER" \
             --repo "$REPOSITORY" \
-           --body "🔔 @LEIPL-131638, este Pull Request está pronto para revisão. Por favor, faça o review quando possível."
+            --body "🔔 @LEIPL-131638, este Pull Request está pronto para revisão. Por favor, faça o review quando possível."
