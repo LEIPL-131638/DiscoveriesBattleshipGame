@@ -67,6 +67,7 @@ Em cada jogada, o jogador escolhe uma posição do tabuleiro adversário para te
 
 Para mais informação sobre os navios utilizados durante a época dos Descobrimentos, podem ser consultadas fontes como a [Wikipédia](https://pt.wikipedia.org/).
 
+
 ### Referências
 
 * [Galeão — Wikipédia](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
