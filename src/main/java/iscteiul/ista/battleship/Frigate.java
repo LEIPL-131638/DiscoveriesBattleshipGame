@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -62,4 +61,3 @@ public class Frigate extends Ship {
         return Frigate.SIZE;
     }
 }
-```

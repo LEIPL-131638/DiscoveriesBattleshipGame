@@ -1,4 +1,3 @@
-```java
 package iscteiul.ista.battleship;
 
 /**
@@ -140,4 +139,3 @@ public class Galleon extends Ship {
                 new Position(pos.getRow() + 2, pos.getColumn()));
     }
 }
-```

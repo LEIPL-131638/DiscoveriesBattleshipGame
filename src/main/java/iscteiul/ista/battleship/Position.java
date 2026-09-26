@@ -21,8 +21,8 @@ public class Position implements IPosition {
         this.isHit = false;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a linha
      *
      * @see battleship.IPosition#getRow()
      */
@@ -31,8 +31,8 @@ public class Position implements IPosition {
         return row;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Devolve a coluna
      *
      * @see battleship.IPosition#getColumn()
      */
@@ -47,8 +47,8 @@ public class Position implements IPosition {
         return Objects.hash(column, isHit, isOccupied, row);
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se uma posição é igual a esta
      *
      * @see battleship.IPosition#equals(java.lang.Object)
      */
@@ -64,8 +64,8 @@ public class Position implements IPosition {
         }
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se outra posição é adjacente, ou seja, se está nas posiçãos imediatamente à volta
      *
      * @see battleship.IPosition#isAdjacentTo(battleship.IPosition)
      */
@@ -74,8 +74,8 @@ public class Position implements IPosition {
         return (Math.abs(this.getRow() - other.getRow()) <= 1 && Math.abs(this.getColumn() - other.getColumn()) <= 1);
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Altera o estado da posição, neste caso indica que a posição está ocupada
      *
      * @see battleship.IPosition#occupy()
      */
@@ -84,8 +84,8 @@ public class Position implements IPosition {
         isOccupied = true;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Altera o estado da posição, neste caso indica que a posição foi atingida
      *
      * @see battleship.IPosition#shoot()
      */
@@ -94,8 +94,8 @@ public class Position implements IPosition {
         isHit = true;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se a posição está ocupada
      *
      * @see battleship.IPosition#isOccupied()
      */
@@ -104,8 +104,8 @@ public class Position implements IPosition {
         return isOccupied;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Verifica se a posição foi atingida
      *
      * @see battleship.IPosition#isHit()
      */
