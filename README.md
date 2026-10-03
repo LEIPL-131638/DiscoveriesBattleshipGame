@@ -85,3 +85,8 @@ Para mais informação sobre os navios utilizados durante a época dos Descobrim
 
 * [Barca — Wikipédia](https://pt.wikipedia.org/wiki/Barca)
 <img width="500" height="375" alt="image" src="https://github.com/user-attachments/assets/88d1387d-6b1f-4f6a-a63f-05f70aa3ec5a" />
+
+## Tecnologias e Ferramentas Utilizadas
+* **Linguagem:** Java
+* **IDEs Utilizados:** IntelliJ IDEA, Eclipse e/ou Visual Studio Code
+* **Controlo de Versões:** Git e GitHub
